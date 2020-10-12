@@ -10,7 +10,9 @@
   },
   "main": "./components/main.js",
   "dependencies": {
+    "bootstrap": "^4.5.2",
     "vue": "^2.6.11",
+    "vue-router": "^3.4.6",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
