@@ -39,7 +39,10 @@
           Products
         </v-btn>
         <v-btn flat>
-          Basket
+          <v-badge left color="green">
+            <span slot="badge">5</span>
+            <v-icon class="fas fa-shopping-cart"></v-icon> Basket
+          </v-badge>
         </v-btn>
       </v-toolbar-item>
     </v-toolbar>
