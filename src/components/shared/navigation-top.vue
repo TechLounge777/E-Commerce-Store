@@ -30,7 +30,7 @@
       
       <v-toolbar dark>
           <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-          <v-toolbar-title>ShoppingCart</v-toolbar-title>
+          <v-toolbar-title><a href="/">ShoppingCart</a></v-toolbar-title>
           <v-spacer></v-spacer>  
       <v-toolbar-item>
         <v-btn flat>

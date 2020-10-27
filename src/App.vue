@@ -3,24 +3,23 @@
     <NavigationTop /> 
     <SearchFront />
     <v-main>
-      <HelloWorld />
+      <router-view></router-view>
     </v-main>
     <Footer />
 </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
 import SearchFront from './components/shared/search-front';
 import Footer from './components/shared/footer';
 import NavigationTop from './components/shared/navigation-top';
+
 
 export default {
   name: 'App',
 
   components: {
     NavigationTop,
-    HelloWorld,
     SearchFront, 
     Footer
   },
