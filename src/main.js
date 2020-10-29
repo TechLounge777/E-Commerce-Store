@@ -11,7 +11,7 @@ Vue.use(VueRouter);
 import HelloWorld from './components/HelloWorld';
 import Basket from './components/Basket';
 import MyAccount from './components/MyAccount';
-
+import BasketCheckout from './components/BasketCheckout';
 const routers = [
   {
   name: 'Home',
@@ -22,6 +22,11 @@ const routers = [
   name: 'Basket',
   path: '/basket',
   component: Basket
+},
+{
+  name: 'BasketCheckout',
+  path: '/basket/basket-checkout',
+  component: BasketCheckout
 },
 {
   name: 'MyAccount',
